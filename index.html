@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Developer Services - DEVANNIE</title>
+    <style>
+        body {
+            background-color: #f5f5f5;
+            color: #5d5d5d;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            font-size: 2.45em;
+            font-weight: 700;
+            margin-top: 30px;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+
+        .card {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+            margin: 20px auto;
+            max-width: 500px;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .button {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 15px;
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+        }
+
+        .gig-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .gig-card {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            width: 300px;
+            padding: 15px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .gig-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .gig-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .footer {
+            margin-top: 40px;
+            font-size: 0.9em;
+        }
+
+        .footer a {
+            font-weight: bold;
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Slideshow Styles */
+        .slideshow-container {
+            position: relative;
+            max-width: 500px;
+            margin: 20px auto;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .slides {
+            display: none;
+        }
+
+        .slides img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .fade {
+            animation: fadeEffect 2s infinite;
+        }
+
+        @keyframes fadeEffect {
+            from { opacity: 0.4; }
+            to { opacity: 1; }
+        }
+
+        @media (max-width: 768px) {
+            .gig-section {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome to DEVANNIE</h1>
+
+    <!-- Login to cPanel Section -->
+    <div class="container">
+        <div class="card">
+            <h2>Login to cPanel</h2>
+            <p>Manage your hosting account easily.</p>
+            <a href="https://cpanel.devannie.online:4022" class="button" target="_blank">Go to cPanel</a>
+        </div>
+    </div>
+
+    <!-- Visit My Gigs Section -->
+    <div class="container">
+        <h2>Visit My Fiverr Gigs</h2>
+
+        <div class="gig-section">
+
+            <!-- Portfolio Gig with Slideshow -->
+            <div class="gig-card">
+                <h3>Personal/Business Portfolio</h3>
+                <div class="slideshow-container">
+                    <div class="slides fade">
+                        <img src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/397613382/original/d56f4bcb26110551c8916efeba9a3d789df91d93/build-a-personal-or-business-portfolio.png" alt="Portfolio Gig Image 1">
+                    </div>
+                    <div class="slides fade">
+                        <img src="https://fiverr-res.cloudinary.com/images/t_smartwm/t_main1,q_auto,f_auto,q_auto,f_auto/v1/attachments/delivery/asset/fa2c9ff60ef94bfecbc770375a480f4a-1733593100/Screenshot_20241207_203648_Microsoft%20Remote%20Desktop/build-a-personal-or-business-portfolio.jpg" alt="Portfolio Gig Image 2">
+                    </div>
+                </div>
+                <a href="https://www.fiverr.com/s/P2jG04G" class="button" target="_blank">View Gig</a>
+            </div>
+
+            <!-- WooCommerce Store Development Gig -->
+            <div class="gig-card">
+                <h3>WooCommerce Store Development</h3>
+                <img src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/397440908/original/9e9db35e57b88f46d1f2eb68afefe440040557fe/build-a-better-woocommerce-store-than-shopify.png" alt="WooCommerce Gig">
+                <a href="https://www.fiverr.com/s/1qN4zK6" class="button" target="_blank">View Gig</a>
+            </div>
+
+            <!-- Shopify Store Development Gig -->
+            <div class="gig-card">
+                <h3>Shopify Store Development</h3>
+                <img src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/397120736/original/4b9b53510441dabc2d314d64221b655894fa55d6/build-a-shopify-site-for-you.png" alt="Shopify Gig">
+                <a href="https://www.fiverr.com/s/wkqEdDg" class="button" target="_blank">View Gig</a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        © 2024 Developed by <a href="https://www.fiverr.com/s/wkqEdDg" target="_blank"><strong>DEVANNIE</strong></a>
+    </div>
+
+    <!-- JavaScript for Slideshow -->
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let slides = document.querySelectorAll('.slides');
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = 'none';
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1; }
+            slides[slideIndex - 1].style.display = 'block';
+            setTimeout(showSlides, 3000); // Change image every 3 seconds
+        }
+    </script>
+
+</body>
+</html>
